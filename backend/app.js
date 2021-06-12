@@ -3,6 +3,19 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 const express = require("express");
 const app = express();
+const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
+const cors = require('cors');
+
+const authRoutes = require("./routes/auth");
+
+// middlewares
+app.use(bodyParser.json());
+app.use(cookieParser());
+app.use(cors());
+
+// app routes
+app.use("/api", authRoutes);
 
 const port = process.env.PORT || 5500;
 
@@ -24,5 +37,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("App is listening on port " + port);
+  console.log("App is listening on http://localhost:" + port);
 });
