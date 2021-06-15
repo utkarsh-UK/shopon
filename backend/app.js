@@ -3,11 +3,13 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 const express = require("express");
 const app = express();
-const bodyParser = require('body-parser');
-const cookieParser = require('cookie-parser');
-const cors = require('cors');
+const bodyParser = require("body-parser");
+const cookieParser = require("cookie-parser");
+const cors = require("cors");
 
 const authRoutes = require("./routes/auth");
+const userRoutes = require("./routes/user");
+const productRoutes = require("./routes/product");
 
 // middlewares
 app.use(bodyParser.json());
@@ -16,6 +18,8 @@ app.use(cors());
 
 // app routes
 app.use("/api", authRoutes);
+app.use("/api", userRoutes);
+app.use("/api", productRoutes);
 
 const port = process.env.PORT || 5500;
 
