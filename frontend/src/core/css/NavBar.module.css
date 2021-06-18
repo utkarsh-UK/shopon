@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar nav {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.link {
+    text-decoration: none;
+    color: #555;
+}
+
+.navbar .logo {
+    width: 130px;
+}
+
+.navbar .cart {
+    width: 35px;
+    height: 35px;
+}
+
+/* effects */
+.link:hover {
+    font-weight: 500;
+}
