@@ -6,3 +6,46 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    justify-content: space-around;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.link {
+    text-decoration: none;
+    color: #555;
+}
+
+.title {
+    color: #555;
+    text-align: center;
+    margin: 0 auto 80px;
+    line-height: 60px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+/* effects */
+
+.title::after {
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 6px;
+}

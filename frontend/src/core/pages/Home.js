@@ -1,7 +1,9 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 
-import NavBar from "./NavBar";
+import NavBar from "../components/NavBar";
+import FeaturedProducts from "../../products/components/FeaturedProducts";
+import LatestProducts from "../../products/components/LatestProducts";
 
 import featureImage from "../../images/feature-image.png";
 import categoryOneImage from "../../images/category-1.jpg";
@@ -21,7 +23,7 @@ const Home = () => {
       </div>
       <div className={classes.categories}>
         <div className={classes["small-container"]}>
-          <div className={classes.row}>
+          <div className="row">
             <div className={classes["col-3"]}>
               <img src={categoryOneImage} alt="Category One" />
             </div>
@@ -34,6 +36,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <FeaturedProducts />
+      <LatestProducts />
     </Fragment>
   );
 };
@@ -43,7 +47,7 @@ export default Home;
 // Featured Element
 const FeatureElement = () => {
   return (
-    <div className={classes.row}>
+    <div className="row">
       <div className={classes["col-1"]}>
         <h2>
           Give Your Workout <br /> A New Style

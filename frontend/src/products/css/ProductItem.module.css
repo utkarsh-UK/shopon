@@ -1,0 +1,30 @@
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    transition: transform 0.5s;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.col-4 h4 {
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 p {
+    font-size: 14px;
+    color: #555;
+}
+
+.col-4 .rating i {
+    color: #ff523b;
+}
+
+/* effects */
+.col-4:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
