@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import NavBar from "../components/NavBar";
 import FeaturedProducts from "../../products/components/FeaturedProducts";
 import LatestProducts from "../../products/components/LatestProducts";
+import Offer from "../components/Offer";
+import Testimonial from "../components/Testimonial";
+import Footer from "../components/Footer";
 
 import featureImage from "../../images/feature-image.png";
 import categoryOneImage from "../../images/category-1.jpg";
@@ -16,7 +19,7 @@ const Home = () => {
   return (
     <Fragment>
       <div className={classes.header}>
-        <div className={classes.container}>
+        <div className="container">
           <NavBar />
           <FeatureElement />
         </div>
@@ -24,13 +27,13 @@ const Home = () => {
       <div className={classes.categories}>
         <div className={classes["small-container"]}>
           <div className="row">
-            <div className={classes["col-3"]}>
+            <div className="col-3">
               <img src={categoryOneImage} alt="Category One" />
             </div>
-            <div className={classes["col-3"]}>
+            <div className="col-3">
               <img src={categoryTwoImage} alt="Category Two" />
             </div>
-            <div className={classes["col-3"]}>
+            <div className="col-3">
               <img src={categoryThreeImage} alt="Category Three" />
             </div>
           </div>
@@ -38,6 +41,9 @@ const Home = () => {
       </div>
       <FeaturedProducts />
       <LatestProducts />
+      <Offer />
+      <Testimonial />
+      <Footer />
     </Fragment>
   );
 };
@@ -56,11 +62,11 @@ const FeatureElement = () => {
           Success isn't always about greatness. It's about consistency.
           Consistent <br /> hard work gains success. Greatness will come.
         </p>
-        <Link to="/" className={classes.btn}>
+        <Link to="/" className="btn">
           Explore Now &#8594;
         </Link>
       </div>
-      <div className={classes["col-2"]}>
+      <div className="col-2">
         <img src={featureImage} alt="Feature" />
       </div>
     </div>

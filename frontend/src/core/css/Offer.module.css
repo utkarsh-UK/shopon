@@ -1,0 +1,28 @@
+.offer {
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+:global(.col-2) h5 {
+    color: #555;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+:global(.col-2) h2 {
+    font-size: 2rem;
+}
+
+:global(.col-2) small {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+:global(.col-2) .offer-image {
+    width: 100%;
+    padding: 30px;
+}
