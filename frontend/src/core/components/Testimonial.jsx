@@ -12,52 +12,52 @@ const Testimonial = () => {
       <div className="small-container">
         <div className="row">
           <div className={cardClass}>
-            <i class="fa fa-quote-left"></i>
+            <i className="fa fa-quote-left"></i>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever.
             </p>
-            <div class={classes.rating}>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
+            <div className={classes.rating}>
+              <i className="fa fa-star"></i>
+              <i className="fa fa-star"></i>
+              <i className="fa fa-star"></i>
+              <i className="fa fa-star"></i>
+              <i className="fa fa-star-half-o"></i>
             </div>
             <img src={userOne} alt="User 1" className={classes.user} />
             <h3>Sean Parker</h3>
           </div>
           <div className={cardClass}>
-            <i class="fa fa-quote-left"></i>
+            <i className="fa fa-quote-left"></i>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever.
             </p>
-            <div class={classes.rating}>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
+            <div className={classes.rating}>
+              <i className="fa fa-star"></i>
+              <i className="fa fa-star"></i>
+              <i className="fa fa-star"></i>
+              <i className="fa fa-star"></i>
+              <i className="fa fa-star-half-o"></i>
             </div>
             <img src={userOne} alt="User 1" className={classes.user} />
             <h3>Sean Parker</h3>
           </div>
           <div className={cardClass}>
-            <i class="fa fa-quote-left"></i>
+            <i className="fa fa-quote-left"></i>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever.
             </p>
-            <div class={classes.rating}>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
+            <div className={classes.rating}>
+              <i className="fa fa-star"></i>
+              <i className="fa fa-star"></i>
+              <i className="fa fa-star"></i>
+              <i className="fa fa-star"></i>
+              <i className="fa fa-star-half-o"></i>
             </div>
             <img src={userOne} alt="User 1" className={classes.user} />
             <h3>Sean Parker</h3>

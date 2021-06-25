@@ -15,9 +15,9 @@ const ProductItem = (props) => {
       <div className={classes.rating}>
         {[1, 2, 3, 4, 5].map((rate) =>
           rate <= props.rating ? (
-            <i class="fa fa-star"></i>
+            <i className="fa fa-star"></i>
           ) : (
-            <i class="fa fa-star-o"></i>
+            <i className="fa fa-star-o"></i>
           )
         )}
       </div>

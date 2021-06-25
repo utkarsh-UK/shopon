@@ -8,13 +8,13 @@ import productTwo from "../../images/product-2.jpg";
 import productThree from "../../images/product-3.jpg";
 import productFour from "../../images/product-4.jpg";
 
-const LatestProducts = () => {
+const LatestProducts = ({ shouldShowTitle = true }) => {
   const productsImages = [productOne, productTwo, productThree, productFour];
   const latestProducts = [...featuredProducts, ...featuredProducts];
 
   return (
     <div className="small-container">
-      <h2 className="title">Latest Products</h2>
+      {shouldShowTitle && <h2 className="title">Latest Products</h2>}
       <div className="row">
         {latestProducts.slice(0, 4).map((product, index) => (
           <ProductItem

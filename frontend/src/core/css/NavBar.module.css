@@ -28,6 +28,6 @@
 }
 
 /* effects */
-.link:hover {
+:global(.link):hover {
     font-weight: 500;
 }

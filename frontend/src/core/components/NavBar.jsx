@@ -15,23 +15,23 @@ const NavBar = () => {
 
       <nav className={classes["menu-items"]}>
         <ul>
-          <Link to="/" className={classes.link}>
+          <Link to="/" className="link">
             {" "}
             <li>Home</li>{" "}
           </Link>
-          <Link to="/" className={classes.link}>
+          <Link to="/products" className="link">
             {" "}
             <li>Products</li>{" "}
           </Link>
-          <Link to="/" className={classes.link}>
+          <Link to="/" className="link">
             {" "}
             <li>About</li>{" "}
           </Link>
-          <Link to="/" className={classes.link}>
+          <Link to="/" className="link">
             {" "}
             <li>Contact</li>{" "}
           </Link>
-          <Link to="/" className={classes.link}>
+          <Link to="/account" className="link">
             {" "}
             <li>Account</li>{" "}
           </Link>

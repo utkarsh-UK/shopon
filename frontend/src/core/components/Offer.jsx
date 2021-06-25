@@ -26,7 +26,9 @@ const Offer = () => {
             </small>{" "}
             <br />
             <br />
-            <Link className="btn">Buy Now &#8594;</Link>
+            <Link to="/" className="btn">
+              Buy Now &#8594;
+            </Link>
           </div>
         </div>
       </div>
