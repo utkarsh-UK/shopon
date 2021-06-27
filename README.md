@@ -8,10 +8,10 @@ It also has a  backend API created with Node.js and Express.js with MongoDB as a
 <img src="snaps/home_page.PNG" width="500"  alt="Home Page"  title="Home Page"/>
 
 ###### Accounts Page
-<img src="images/accounts_page.PNG" width="500"  alt="Accounts Page"  title="Accounts Page"/>
+<img src="snaps/accounts_page.PNG" width="500"  alt="Accounts Page"  title="Accounts Page"/>
 
 ###### Products Page
-<img src="images/products_page.PNG" width="500"  alt="Products Page"  title="Products Page"/>
+<img src="snaps/products_page.PNG" width="500"  alt="Products Page"  title="Products Page"/>
 
 ## Tools Used
 * React for front end
